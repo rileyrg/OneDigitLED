@@ -20,7 +20,7 @@ void setup(){
      }  
 }  
 void printLEDDigit(int v){  
-     for (int i=0;i<=sizeof(segmentToPort);i++) {  
+     for (int i=0;i<=sizeof(ledBits[0]);i++) {  
           digitalWrite(segmentToPort[i],ledBits[v][i]);  
      }  
 }  
